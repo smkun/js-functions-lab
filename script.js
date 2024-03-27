@@ -29,7 +29,7 @@ function stringsLongerThan(strings, minLength) {
 }
 console.log(
     "Exercise 8 Result:",
-    stringsLongerThan(["say", "helo", "in", "the", "morning"], 3)
+    stringsLongerThan(["say", "hello", "in", "the", "morning"], 3)
 );
 
 /*
