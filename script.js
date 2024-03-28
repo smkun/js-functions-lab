@@ -94,13 +94,13 @@ Create a function called sumArray. It should take an array of numbers and return
 
 Complete Exercise 4 in the space below:
 */
-function sumArray(numbers) {
+const sumArray = (numbers) => {
     let total = 0;
     for (let a = 0; a < numbers.length; a++) {
         total += numbers[a];
     }
     return total;
-}
+};
 
 console.log("Exercise 4 Result:", sumArray([2, 4, 5]));
 
